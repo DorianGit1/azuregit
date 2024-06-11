@@ -40,6 +40,7 @@
 <body>
 
 <h1>Informations des utilisateurs</h1>
+<img src="logo.jpg" alt="ScotchLand">
 
 <?php
 // Paramètres de connexion à la base de données
