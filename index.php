@@ -56,7 +56,7 @@
         <div class="image">
             <?php
                 // Nom du fichier image (supposons que l'image s'appelle "melee.jpg")
-                $imageName = "melee.jpg";
+                $imageName = "logo.jpg";
 
                 // Vérifier si le fichier image existe dans le même dossier
                 if (file_exists($imageName)) {
