@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<title>Afficher une table MariaDB</title>
+<title>Afficher une table MariaDB2</title>
 <style>
     body {
         font-family: Arial, sans-serif;
