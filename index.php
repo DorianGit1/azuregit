@@ -39,7 +39,7 @@
 </head>
 <body>
 
-<h1>Informations des utilisateurs</h1>
+<h1>Informations des utilisateurs TEST</h1>
 <img src="logo.jpg" alt="ScotchLand">
 
 <?php
