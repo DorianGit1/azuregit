@@ -45,8 +45,8 @@
 <?php
 // Paramètres de connexion à la base de données
 $servername = "bdd-dor.mysql.database.azure.com";
-$username = "root";
-$password = "root";
+$username = "dorian";
+$password = "Simplon2024/";
 $dbname = "bddbrief";
 
 // Créer une connexion
