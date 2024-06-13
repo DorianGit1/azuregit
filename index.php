@@ -58,7 +58,7 @@ if ($conn->connect_error) {
 }
 
 // Préparer et exécuter la requête
-$query = "SELECT * FROM <nom de la table>";
+$query = "SELECT * FROM employes";
 if ($stmt = $conn->prepare($query)) {
     $stmt->execute();
     $result = $stmt->get_result();
