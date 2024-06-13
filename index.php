@@ -44,10 +44,10 @@
 
 <?php
 // Paramètres de connexion à la base de données
-$servername = "localhost";
-$username = "<nom d'utilisateur>";
-$password = "<mot de passe>";
-$dbname = "<nom de la base de données>";
+$servername = "bdd-dor.mysql.database.azure.com";
+$username = "root";
+$password = "root";
+$dbname = "bddbrief";
 
 // Créer une connexion
 $conn = new mysqli($servername, $username, $password, $dbname);
