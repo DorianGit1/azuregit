@@ -66,12 +66,12 @@ if ($stmt = $conn->prepare($query)) {
     // Afficher les données dans un tableau HTML
     if ($result->num_rows > 0) {
         echo "<table>";
-        echo "<tr><th>Nom</th><th>Prénom</th><th>Adresse</th></tr>";
+        echo "<tr><th>Numéro</th><th>Prénom</th><th>Nom</th></tr>";
         while ($row = $result->fetch_assoc()) {
             echo "<tr>";
-            echo "<td>" . htmlspecialchars($row['nom']) . "</td>";
-            echo "<td>" . htmlspecialchars($row['prenom']) . "</td>";
-            echo "<td>" . htmlspecialchars($row['adresse']) . "</td>";
+            echo "<td>" . htmlspecialchars($row['Numero']) . "</td>";
+            echo "<td>" . htmlspecialchars($row['Prenom']) . "</td>";
+            echo "<td>" . htmlspecialchars($row['Nom']) . "</td>";
             echo "</tr>";
         }
         echo "</table>";
