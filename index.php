@@ -49,8 +49,12 @@ $username = "dorian";
 $password = "Simplon2024/";
 $dbname = "bddbrief";
 
-// Créer une connexion
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = mysqli_init();
+mysqli_ssl_set($conn,NULL,NULL, "/var/www/html/wwwroot/DigiCertGlobalRootCA.crt.pem", NULL, NULL);
+mysqli_real_connect($conn, $servername, $username, $password, $dbname, 3306, MYSQLI_CLIENT_SSL);
+if (mysqli_connect_errno()) {
+die('Failed to connect to MySQL: '.mysqli_connect_error());
+}
 
 // Vérifier la connexion
 if ($conn->connect_error) {
